@@ -10,8 +10,14 @@
 
 .hero {
   background-color: var(--footer-hero-bg-color);
+  margin-bottom: 94px;
+ /* padding-top: 200px;
+  padding-right: 452px;
+  padding-bottom: 280px;*/
   }
 .hero .title {
+  margin-top: 0;
+  margin-bottom: 40px;
   font-weight: 900;
 font-size: 44px;
 line-height: 60px;
@@ -28,6 +34,9 @@ font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color:var(--prime-white-color);
+margin-top: 0;
+margin-bottom: 0;
+
 }
 .footers .logo-studio {
 color:var(--prime-white-color);
@@ -38,6 +47,7 @@ color:var(--prime-white-color);
 body {
   font-family: roboto, sans-serif;
   color:var(--prim-text-color);
+  width: 1200px;
 }
 
 a {
@@ -57,6 +67,8 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.05em;
 color:var(--sec-text-color);
+margin-top: 0;
+margin-bottom: 50px;
 }
 .logo-web {
 font-family: Raleway, sans-serif;
@@ -119,12 +131,16 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 text-transform: uppercase;
+margin-top: 0;
+margin-bottom: 10px;
 }
 .about {
   font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
+margin-top: 0;
+margin-bottom: 0;
 }
 h2 {
 font-weight: 700;
@@ -160,6 +176,8 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
+margin-bottom: 9px;
+margin-top: 0;
 }
 .footer-address .contacts {
   font-weight: 400;
@@ -206,4 +224,73 @@ line-height: 16px;
 letter-spacing: 0.03em;
 color:var(--prim-text-color);
 text-decoration: none;
+}
+.page-container {
+ margin-left: auto;
+margin-right: auto;
+width: 1200px;
 
+}
+.nav-container {
+margin-left: auto;
+margin-right: auto;
+width: 1170px;
+}
+.address-container {
+margin-left: auto;
+margin-right: auto;
+width: 1170px;
+}
+.about-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.about-container {
+  margin-top: 0;
+  margin-bottom: 94px;
+}
+.works {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.works-container {
+  margin-top: 0;
+  margin-bottom: 94px;
+}
+.crew-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.employees {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.profession {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.crew {
+   margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.footers-logo {
+ margin-bottom: 20px;
+}
+.footers {
+ padding-top: 60px;
+ padding-bottom: 60px;
+ padding-left: 215px;
+}
+.footer-address {
+  margin-bottom: 0;
+}
+.footer-mail {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+.footer-tel {
+  padding-bottom: 60px;
+}

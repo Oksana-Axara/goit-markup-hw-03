@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./CSS/styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="./CSS/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
 </head>
 <body>
-<header>
-  <nav>
+<header class="page-container">
+  <nav class="nav-container">
     <a href="" class="logo-web">Web<span class="logo-studio">Studio</span></a>
     <ul class="site-nav">
       <li class="nav"><a class="link" href=""><span class="current-page">Студия</span></a></li>
@@ -19,20 +20,21 @@
       <li class="nav"><a class="link" href="">Контакты</a></li>
     </ul> 
   </nav>
+  <div class="address-container">
     <address class="header-address">
         <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a class="link" href="tel:+380961111111">+380 96 111 11 11</a>
     </address>
-   
+</div>
 </header>
 <main>
     <section class="hero">
     <h1 class="title">Эффективные решения для вашего бизнеса</h1>
 <button type="button" class="hero-button">Заказать услугу</button>
     </section>
-    <section>
+    <section class="about-container">
         <h2 hidden>О нас</h2>
-        <ul>
+        <ul class="about-list">
             <li>
                 <h3 class="about-title">Внимание к деталям</h3>
                 <p class="about">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -52,9 +54,9 @@
         </ul>
     </section>
 
-    <section>
+    <section class="works-container">
     <h2 class="title-about">Чем мы занимаемся</h2>
-    <ul>
+    <ul class="works">
        <li><img src="./images/img.jpg" alt="Работа на компьютере и планшете" width="370"></li>
        <li><img src="./images/img2.jpg" alt="Работа на телефоне и ноутбуке" width="370"></li>
        <li><img src="./images/img3.jpg" alt="Работа на планшете" width="370"></li>
@@ -63,7 +65,7 @@
     
     <section class="crew">
         <h2 class="title-about">Наша команда</h2>
-        <ul>
+        <ul class="crew-list">
             <li>
                 <img src="./images/img4.jpg" alt="Веселый бородатый парень" width="260">
                 <h3 class="employees">Игорь Демьяненко</h3>
@@ -93,13 +95,19 @@
 </main>
 
 <footer class="footers">
+    <span class="footers-logo">
 <a href="" class="logo-web">Web<span class="logo-studio">Studio</span></a>
+</span>
    <!--<a href="">WebStudio</a>--> 
    <address class="footer-address">
         <p>г. Киев, пр-т Леси Украинки, 26</p>
-        
-        <a class="contacts" href="mailto:info@example.com">info@example.com</a><br>
+        <span class="footer-mail">
+        <a class="contacts" href="mailto:info@example.com">info@example.com</a>
+    </span>
+    <br>
+    <span class="footer-tel">
         <a class="contacts" href="tel:+380991111111">+380 99 111 11 11</a>
+        </span>
    </address>
     
     
