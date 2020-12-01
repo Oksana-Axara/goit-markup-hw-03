@@ -48,6 +48,8 @@ body {
   font-family: roboto, sans-serif;
   color:var(--prim-text-color);
   width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 a {
@@ -78,6 +80,7 @@ line-height: 31px;
 letter-spacing: 0.04em;
 color:var(--accent-color);
 text-decoration: none;
+padding: 24px 93px 25px 215px;
 }
 .logo-studio {
 font-family: Raleway, sans-serif;
@@ -87,6 +90,7 @@ line-height: 31px;
 letter-spacing: 0.04em;
 text-decoration: none;
 color:var(--sec-text-color);
+
 }
 .site-nav .link{
 font-style: normal;
@@ -97,6 +101,9 @@ letter-spacing: 0.03em;
 color:var(--sec-text-color);
 list-style: none;
 text-decoration: none;
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .site-nav .nav .link:hover,
@@ -155,8 +162,10 @@ font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.04em;
 color:var(--prim-text-color);
+margin-top: 0;
+margin-bottom: 0;
 }
-.crew .employees{
+.crew .employees {
   font-weight: 500;
 font-size: 16px;
 line-height: 19px;
@@ -196,9 +205,14 @@ font-size: 16px;
 line-height: 26px;
 text-align: center;
 letter-spacing: 0.03em;
-
+margin-top: 0;
+margin-bottom: 0;
 color:var(--sec-text-color);
-
+}
+.sort-button {
+  margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
 }
 .sort-button .sort:hover,
 .sort-button .sort:focus {
@@ -229,17 +243,29 @@ text-decoration: none;
  margin-left: auto;
 margin-right: auto;
 width: 1200px;
+display: flex;
+flex-direction: row;
+align-items: baseline;
+justify-content: center;
 
 }
 .nav-container {
 margin-left: auto;
 margin-right: auto;
-width: 1170px;
+width: 1200px;
+display: flex;
+align-items: baseline;
+
 }
 .address-container {
 margin-left: auto;
 margin-right: auto;
 width: 1170px;
+display: inline;
+padding-right: 215px;
+align-content: center;
+flex-direction: row;
+align-items: baseline;
 }
 .about-list {
   margin-top: 0;
@@ -293,4 +319,45 @@ width: 1170px;
 }
 .footer-tel {
   padding-bottom: 60px;
+}
+.site-nav {
+display: flex;
+margin-right: 50px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.battons-container {
+  margin-top: 94px;
+  margin-bottom: 50px;
+  margin-right: 494px;
+  margin-left: 495px;
+}
+.portfolio {
+  width: 1200px;
+  margin-top: 0;
+  margin-bottom: 94px;
+  margin-left: 215px;
+  margin-right: 215px;
+  padding-left: 0;
+}
+.portfolio-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.nav {
+  display: flex;
+}
+.nav ,li{
+ margin-right: 50px; 
+}
+.header-mail {
+
+margin-right: 50px;
+
+}
+.header-tel {
+
+
+
 }
